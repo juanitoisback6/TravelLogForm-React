@@ -26,7 +26,7 @@ function handleInputDataChange(e) {
     e.preventDefault();  
 
   
-    console.log("Form submitted:", inputData);
+   console.log("Form submitted:", inputData, "and", activities);
 setInputData({
    destination: "",
    dates: "",
